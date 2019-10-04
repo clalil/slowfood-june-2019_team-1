@@ -10,3 +10,6 @@
           %td= product.description
           %td= product.price
           %td= add_to_cart(product, 1, 'Add to cart')
+        - if current_user.try(:admin?)
+          = link_to 'Edit'
+
