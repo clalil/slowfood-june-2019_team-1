@@ -14,7 +14,7 @@
 ![](./app/assets/images/readme.png)
 
 ## The code   
-This repository contains my team's solution to the Slow Food Challenge, which was a one week challenge using Ruby on Rails as well as the Gems Devise and Cartify.     
+This repository contains our team's solution to the Slow Food Challenge; a web-based application that allows customers to order their food for home delivery, or for pick up from the restaurant. This was a one week challenge using Ruby on Rails as well as the Gems Devise and Cartify.        
 ## Getting started
 ### Dependencies  
 * Rails v. 5.2.0
