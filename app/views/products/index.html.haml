@@ -1,16 +1,16 @@
 #divSuper
   %h1 FoodComrade restaurant
   #divMain
-    #divBg
-      #divMenu
-        %ul#categorieslist
-          %h2 Menu
-          - @categories.each do |category|
-            %h2= category.title
-            - category.products.each do |product|
-              %li
-                = product.name
-                = product.description
-                = product.price
-              - if current_user.try(:admin?)
-                = link_to 'Edit'
+    %ul#categorieslist
+      %h2 Menu
+      - @categories.each do |category|
+        %h2= category.title
+        - category.products.each do |product|
+          %li
+            = product.name
+            = product.description
+            = product.price
+          - if current_user.try(:admin?)
+            = link_to 'Edit'
+%footer
+  %p Created with Rails (2019)
