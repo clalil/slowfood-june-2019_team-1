@@ -10,6 +10,7 @@
 **Back End:** Rails  
 **Testing frameworks:** Cucumber, RSpec  
 **Deployed at:** - 
+**Project Management Tool:** [Pivotal tracker for our team](https://www.pivotaltracker.com/n/projects/2401272)
 
 ![](./app/assets/images/readme.png)
 
